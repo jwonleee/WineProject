@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.footerBySemin {
+    width: 100%;
+    height: 150px;
+    border-top: 5px solid rgb(213, 213, 213);
+}
+
+.footerBySemin .divsBox {
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+
+.footerBySemin .divs {
+    color: gray;
+}

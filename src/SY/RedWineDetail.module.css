@@ -1,0 +1,316 @@
+/* 레드 와인 detail css  */
+* {margin: 0 auto; padding: 0; list-style: none; box-sizing: border-box;} 
+a {text-decoration: none;}
+img{max-width: 100%; height: auto;}
+
+/* font-family: 'Bitter', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+/* **************상세페이지************* */
+.detail_wrap {
+    margin: 0 300px;
+    text-align: center;     
+    padding-top: 30px;
+}
+
+
+
+/* 상단 와인사진 */
+.detailImg_wrap {
+    text-align: center;
+    margin: 40px 0px;
+    position: absolute;
+        top: 52px;
+    left: 272px;
+}
+
+.detailImg_wrap img{
+  width: 110px;
+  filter: drop-shadow(4px 4px 4px rgb(194, 194, 194));
+}
+
+/* 상단 와인 이름 */
+.detailNameList {
+    font-family: 'Bitter';
+    font-size: 45px;
+    font-weight: bolder;
+}
+.detailTitle1 {
+    font-size: 50px;
+    /* margin-top: 100px; */
+    font-weight: 2000;
+    color: rgb(107, 106, 106);
+    position: absolute;
+    top: 109px;
+    left: 422px;
+}
+.detailTitle2 {
+    font-size: 50px;
+    /* margin-top: 100px; */
+    font-weight: 900;
+    color: rgb(107, 106, 106);
+    position: absolute;
+    top: 391px;
+    left: 450px;
+
+}
+
+
+.detailInfo_wrap{
+  margin-bottom: 50px;
+}
+
+.detailInfo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;        
+}
+.detailInfo > li {
+    flex-basis: 100px;
+    flex-grow: 0;
+}
+
+.detailText {
+    text-align: left;
+    line-height: 35px;
+    margin: 40px 19px 100px 30px;
+    padding: 0px 120px;
+
+    
+}
+
+.bannerImg{
+    /* width: 150px; */
+    text-align: center;  
+}
+.bannerImg img {
+    width: 50%;
+    height: 50%;
+}
+
+.swiperWrap{
+    margin: 80px 0px 120px 0px;
+}
+.swiper {
+    font-size: 11px;
+    padding: 20px;
+    
+}
+
+
+
+.section_top {
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 40px;
+    overflow: hidden;
+    font-size: 17px;
+    color: #636262;
+    margin-top: 550px;
+}
+
+.section_top .sideName {
+    color: #313131;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.left_wrap {
+    overflow: hidden;
+}
+
+.section_top .left {
+    float: left;
+    padding-bottom: 15px;
+    width: 50%;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.section_top .map_btn {
+    margin: 2px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    color: none;
+    background-color: white;
+    /* 호버시 */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    width: 50%;
+    margin-top: 20px;
+}
+
+.section_top .map_btn:hover {
+    background: #37805b; 
+    color: white;
+}
+
+.page_wrap .page_btn {
+    padding: 20px 119px;
+    font-size: 20px;
+    border-radius: none;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    color: none;
+    background-color: white;
+    /* 호버시 */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.page_wrap .page_btn:hover {
+    background: #5f0080  ; 
+    color: white;
+}
+
+.section_bottom{
+    text-align: center;
+    margin: 200px 0px 100px 0px;
+}
+
+
+
+/* ============= */
+/* html {
+    height: 50%;
+  }
+   */
+  /* body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bungee Shade", cursive;
+  } */
+.oo{
+    position: absolute;
+    top: 184px;
+    left: 436px;
+    width: 700px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    font-weight: 900;
+    width: 100%;
+    text-align: left;
+    font-size: 55px;
+    background: linear-gradient(-45deg, #5f0080 25%, #b353d3 25%, #b353d3 50%, #5f0080 50%, #5f0080 75%, #b353d3 75%, #b353d3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 20px 20px;
+    background-position: 0 0;
+    -webkit-animation: stripes 1s linear infinite;
+    animation: stripes 1s linear infinite;
+  }
+
+  
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 20px 0, 20px 0, 20px 0;
+    }
+  }
+  
+  @keyframes stripes {
+    100% {
+      background-position: 20px 0, 20px 0, 20px 0;
+    }
+  }
+
+
+
+  /* 리뷰 */
+  .reviewBox{
+    display: flex;
+    padding: 30px 0px 19px 20px;
+    border-bottom: 1px solid rgb(244, 244, 244);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .rightWrap{
+    flex: 0 0 225px;
+  }
+  .btnWrap{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: -1px 0px 7px;
+  }
+
+  .minButton1 {
+    display: inline-block;
+    height: 18px;
+    border: 1px solid rgb(168, 100, 216);
+    border-radius: 3px;
+    padding: 3px 4px 3px 5px;
+    margin-right: 4px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    word-break: keep-all;
+    background-color: rgb(168, 100, 216);
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .minButton2{
+    display: inline-block;
+    height: 18px;
+    border: 1px solid rgb(95, 0, 128);
+    border-radius: 3px;
+    padding: 3px 4px 3px 5px;
+    margin-right: 4px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    word-break: keep-all;
+    background-color: rgb(255, 255, 255);
+    color: rgb(95, 0, 128);
+  }
+
+  .review_text{
+    flex: 1 1 0%;
+    overflow: hidden;
+  }
+
+  .reviewTitle{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 5px;
+    height: 19px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgb(153, 153, 153);
+  }
+
+  .reviewContent{
+    padding-top: 12px;
+    word-break: break-word;
+    white-space: pre-line;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgb(51, 51, 51);
+    padding-right: 20px;
+    text-align: left;
+
+  }

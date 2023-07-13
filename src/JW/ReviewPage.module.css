@@ -1,0 +1,105 @@
+
+.review_wrap {
+    margin: 100px 0 100px 0;
+}
+
+.title {
+    color: #5f0080;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.title {
+    color: #ffffff;
+    text-shadow: -1.5px 0 #3d0052, 0 1.5px #3d0052, 1.5px 0 #3d0052, 0 -1.5px #3d0052;
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 370px;
+    left: 140px;
+}
+
+.review_wrap .review_box {
+    overflow: hidden;
+}
+
+.review_wrap .review_box .review_left {
+    float: left;
+    width: 40%;
+    height: 800px;
+    background-color: #683679;
+    position: relative;
+    z-index: -3;
+}
+
+.review_wrap .review_box .review_img {
+    height: 800px;
+    position: absolute;
+    top: 125px;
+    left: 280px;
+    transform: rotate( -15deg );
+    z-index: -1;
+}
+
+.review_wrap .review_box .review_right {
+    float: right;
+    width: 60%;
+    height: 800px;
+    background-color: #eadfec;
+    font-size: 17px;
+    padding: 60px 20px 0 20px;
+}
+
+.review_right .review_star {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+.review_right .review_reviewer {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+.review_right .review_titles {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+.review_right a {
+    overflow: hidden;
+    display: block;
+    border-bottom: 2px solid #3d0052;
+    margin: 0 40px;
+}
+
+.review_right p {
+    float: left;
+    margin-right: 20px;
+}
+
+.page_btn {
+    padding: 12px 60px;
+    font-size: 17px;
+    border-radius: none;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    color: none;
+    background-color: white;
+    /* 호버시 */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    float: right;
+    margin: 165px 40px;
+}
+
+.page_btn:hover {
+    background: #2e2e2e  ; 
+    color: white;
+}

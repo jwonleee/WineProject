@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+.fixedHeader {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #5f0080;
+    height: 13%;
+    padding-top: 25px;
+}
+
+.HeaderBySemin {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    margin-top: 10px;
+    z-index: 1000;
+    background-color: #5f0080;
+    margin: 0 auto;
+}
+
+.HeaderBySemin .HeaderBySemin_left {
+    float: left;
+    overflow: hidden;
+    color: white;
+    margin: 0 300px;
+}
+
+.HeaderBySemin .HeaderBySemin_left .HeaderBySemin_leftchildbtn {
+    float: left;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+}
+
+.HeaderBySemin .HeaderBySemin_left .HeaderBySemin_leftchild {
+    float: left;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.HeaderBySemin .HeaderBySemin_left .HeaderBySemin_leftchild p {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.HeaderBySemin .HeaderBySemin_left .HeaderBySemin_lefthiddenchild_default {
+    display: none;
+}
+
+.HeaderBySemin .HeaderBySemin_left .HeaderBySemin_lefthiddenchild_clicked {
+    cursor: pointer;
+    display: block;
+    margin-top: 3px;
+}
+
+.HeaderBySemin_lefthiddenchild_clicked span {
+    font-size: 15px;
+} 
+
+.HeaderBySemin_lefthiddenchild_clicked span:hover {
+    border-bottom: 1px solid white;
+} 
+
+.search {
+    position: absolute;
+    top: 0;
+    right: 300px;
+    margin-left: 50px;
+    width: 400px;
+    height: 50px;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.searchInput {
+   border: none;
+   width: 300px;
+   height: 40px;
+   font-size: 15px;
+   float: left;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.searchBtn {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.HeaderBySemin .HeaderBySemin_right {
+    float: right;
+    overflow: hidden;
+}
+
+.category {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.hiddenCategory {
+    position: absolute;
+    top:0;
+    left:310px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000;
+    display: none;
+}
+
+.hiddenCategory li {
+    padding-left: 10px;
+    background-color: #5f0080;
+    height: 30px;
+    width: 100px;
+    color: white;
+}
+.hiddenCategory li:hover{
+    transition: all 0.5s;
+    background: rgba(0, 0, 0,0.3);
+}
+.hiddenBox{
+    position: relative;
+    
+
+}
+
+.topbutton {
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    overflow: hidden;
+    background-color: #5f0080;
+    color: white;
+    cursor: pointer;
+}
+
+.topbutton span {
+    float: right;
+    margin-right: 18px;
+    margin-top: 25px;
+}

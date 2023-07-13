@@ -1,0 +1,138 @@
+/* 레드 와인 api css  */
+* {margin: 0 auto; padding: 0; list-style: none; box-sizing: border-box;} 
+a {text-decoration: none;}
+img{max-width: 100%; height: auto;}
+
+/* font-family: 'Bitter', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+.loading { 
+    height: 1000px;
+}
+
+.redwine_container {
+    margin: 0 300px;
+    text-align: center;       
+}
+
+.redwine_container h3 {
+    height: 100px;
+    line-height: 100px;
+    
+}
+.topImgWrap{
+    background: rgba(0, 0, 0, 0.5) url('./img/3.jpg');
+    background-repeat: no-repeat;
+    height: 320px;
+    line-height: 320px;
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -150px;
+    margin: 80px 0;
+    font-family:'Bitter';
+    font-size: 70px;
+    color: #ffffff;
+    text-shadow: 5px 5px darkred, 8px 8px rgb(133, 28, 28), 11px 11px rgb(131, 42, 42);
+    position: relative;
+    
+}
+
+
+
+.orangeBox {
+    position: absolute;
+    border: 3px solid darkred;
+    height: 192px;
+    width: 650px;
+    top: 66px;
+    left: 320px;
+
+}
+.redwine_wrap { /* 부모 box */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+
+/* 레드 와인 리스트 css */
+.redwine_wrap li { /* 자식 box */
+    flex-basis: 33.333%;
+}
+
+.redwine_wrap .imageList {
+    padding: 50px 0;
+    filter: drop-shadow(4px 4px 4px rgb(136, 136, 136)); /* 이미지그림자주기 */
+}
+
+/* 호버:이미지 확대 */
+.redwine_wrap li img {
+    object-fit: cover;
+    transition: all 0.2s linear;
+    margin: 0 auto;
+    height: 260px;
+}
+.redwine_wrap li img:hover {transform: scale(1.05);}
+
+
+/* p태그디자인 */
+.redwine_wrap .textList { 
+    margin: 20px 20px 60px; 
+    text-align: left; 
+    padding: 0px 15px;
+    position: relative;
+}
+.redwine_wrap .textList p { 
+    margin-bottom: 5px; 
+    font-family: 'Bitter', cursive;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+   
+}
+
+.redwine_wrap .textList .nameList{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5f0080;
+    border-top: solid rgb(131, 131, 131) 1px;
+    padding-top: 10px;
+}
+
+.redwine_wrap .textList .locationList{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
+.redwine_wrap .textList .wineryList {
+    color: #777;
+}
+
+
+
+.redwine_wrap .textList .avgList{
+    position: absolute;
+    bottom: -30px;
+    left:11;
+    color: rgb(223, 15, 0);
+    font-weight: 800;
+}
+
+.redwine_wrap .textList .reviews{
+    position: absolute;
+    bottom: -30px;
+    left: 75px;
+    color: #777;
+}
+
+.zollim{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}

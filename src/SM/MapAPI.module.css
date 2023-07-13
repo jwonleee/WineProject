@@ -1,0 +1,28 @@
+.map {
+    margin: 0 auto
+}
+
+.search_btn {
+    padding: 15px 120px;
+    font-size: 18px;
+    border-radius: none;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    color: none;
+    background-color: white;
+    /* 호버시 */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-top: 40px;
+}
+
+.search_btn:hover {
+    background: #5f0080  ; 
+    color: white;
+}
+
+.user_address {
+    padding-top: 45px;
+    font-size: 20px;
+    font-weight: 600;
+}

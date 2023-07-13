@@ -1,0 +1,115 @@
+a {text-decoration: none;}
+img{max-width: 100%; height: auto;}
+
+/* 
+font-family: 'Bitter', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'NanumSquareNeo-Variable';
+ */
+
+.whitewine_container {
+    text-align: center;
+}
+
+.whitewine_container .whitewinelist_title {
+    margin: 80px 0;
+    font-size: 60px;
+    /* color: #ffa600; */
+    color: #ffffff;
+    text-shadow: 5px 5px #aa6414, 8px 8px #ca7513, 11px 11px #f18912, 14px 14px #ffae00;
+    background-image: url('img/s3.jpg');
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: -80px;
+    background-color: #0003;
+    background-blend-mode: darken;
+    height: 320px;
+    line-height:320px;
+}
+
+.whitewine_container .whitewinelist_title h3 {
+    font-family: 'Lobster';
+}
+
+.whitewine_wrap { /* 부모 box */
+    margin: 0 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+/* 화이트 와인 리스트 css */
+.whitewine_wrap li { /* 자식 box */
+    flex-basis: 33.3333%;
+}
+
+.whitewine_wrap .imageList {
+    padding: 50px 0;
+    /* border: 1px solid rgb(202, 202, 202); */
+    filter: drop-shadow(4px 4px 4px rgb(136, 136, 136));
+}
+
+.whitewine_wrap .imageList img {
+    object-fit: cover;
+    transition: all 0.2s linear;
+    margin: 0 auto;
+    height: 260px;
+    filter: brightness(105%) ;
+}
+
+.whitewine_wrap .imageList img:hover {
+    transform: scale(1.05);
+}
+
+.whitewine_wrap .textList {
+    margin: 20px 30px 60px;
+    text-align: left;
+    color: #777;
+    position: relative;
+}
+
+.whitewine_wrap .textList p {
+    padding: 0 20px;
+    /* font-family: 'Bitter', cursive; */
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.whitewine_wrap .textList .nameList {
+    font-family: 'Bitter', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color:#5f0080;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    border-top: solid rgb(131, 131, 131) 1px;
+}
+
+.whitewine_wrap .textList .LocationList {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
+.whitewine_wrap .textList .avgList{
+    position: absolute;
+    bottom: -40px;
+    left:0;
+    color: rgb(223, 15, 0);
+    font-weight: 800;
+}
+
+.whitewine_wrap .textList .reviewList{
+    position: absolute;
+    bottom: -40px;
+    left: 90px;
+}
+
+
+
